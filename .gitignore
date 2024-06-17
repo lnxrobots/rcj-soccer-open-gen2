@@ -1,0 +1,26 @@
+# MacOS apparently creates some junk files
+.DS_Store
+
+# Binaries
+bin/
+bin-int/
+
+# Make Files
+Makefile
+**.make
+
+# VSCode
+.vscode
+*.code-workspace
+
+# Visual Studio
+*.vs
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+__pycache__
+logs
+frames
+calibration.json

@@ -1,0 +1,12 @@
+[Unit]
+Description=Robot Launcher
+After=multi-user.target
+
+[Service]
+ExecStartPre=/bin/sleep 2
+ExecStart=/bin/python -u /home/pi/robocup-open-gen2/Launcher/launcher.py
+WorkingDirectory=/home/pi/robocup-open-gen2/Launcher
+Type=idle
+
+[Install]
+WantedBy=multi-user.target
